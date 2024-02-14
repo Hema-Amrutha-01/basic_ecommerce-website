@@ -1,0 +1,124 @@
+{
+    "products": [
+      {
+        "name": "Classic Watch",
+        "image": "classic_watch.jpg",
+        "weight": "150g",
+        "price": "150"
+      },
+      {
+        "name": "Wireless Headphones",
+        "image": "wireless_headphones.jpg",
+        "weight": "200g",
+        "price": "200"
+      },
+      {
+        "name": "Leather Wallet",
+        "image": "leather_wallet.jpg",
+        "weight": "50g",
+        "price": "80"
+      },
+      {
+        "name": "Coffee Maker",
+        "image": "coffee_maker.jpg",
+        "weight": "2kg",
+        "price": "450"
+      },
+      {
+        "name": "Smartphone",
+        "image": "smartphone.jpg",
+        "weight": "180g",
+        "price": "10000"
+      },
+      {
+        "name": "Stainless Steel Water Bottle",
+        "image": "water_bottle.jpg",
+        "weight": "300g",
+        "price": "500"
+      },
+      {
+        "name": "Running Shoes",
+        "image": "running_shoes.jpg",
+        "weight": "500g",
+        "price": "5000"
+      },
+      {
+        "name": "Bluetooth Speaker",
+        "image": "bluetooth_speaker.jpg",
+        "weight": "700g",
+        "price": "60000"
+      },
+      {
+        "name": "Laptop Backpack",
+        "image": "laptop_backpack.jpg",
+        "weight": "800g",
+        "price": "80003"
+      },
+      {
+        "name": "Digital Camera",
+        "image": "digital_camera.jpg",
+        "weight": "400g",
+        "price": "497202"
+      },
+      {
+        "name": "Fitness Tracker",
+        "image": "fitness_tracker.jpg",
+        "weight": "50g",
+        "price": "67840"
+      },
+      {
+        "name": "Portable Charger",
+        "image": "portable_charger.jpg",
+        "weight": "150g",
+        "price": "800"
+      },
+      {
+        "name": "Gaming Mouse",
+        "image": "gaming_mouse.jpg",
+        "weight": "100g",
+        "price": "909"
+      },
+      {
+        "name": "Wireless Keyboard",
+        "image": "wireless_keyboard.jpg",
+        "weight": "300g",
+        "price": "1259"
+      },
+      {
+        "name": "Hiking Backpack",
+        "image": "hiking_backpack.jpg",
+        "weight": "1kg",
+        "price": "450"
+      },
+      {
+        "name": "Tea Set",
+        "image": "tea_set.jpg",
+        "weight": "800g",
+        "price": "890"
+      },
+      {
+        "name": "Desk Lamp",
+        "image": "desk_lamp.jpg",
+        "weight": "400g",
+        "price": "8745"
+      },
+      {
+        "name": "Travel Pillow",
+        "image": "travel_pillow.jpg",
+        "weight": "300g",
+        "price": "90874"
+      },
+      {
+        "name": "Cookware Set",
+        "image": "cookware_set.jpg",
+        "weight": "3kg",
+        "price": "67777"
+      },
+      {
+        "name": "Sunglasses",
+        "image": "sunglasses.jpg",
+        "weight": "50g",
+        "price": "5600"
+      }
+    ]
+  }

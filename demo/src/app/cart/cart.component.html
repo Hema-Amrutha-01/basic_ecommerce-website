@@ -1,0 +1,67 @@
+
+<nav>
+  <input type="checkbox" id="check">
+  <label for="check" class="checkbtn">
+    <i class="fas fa-bars"></i>
+  </label>
+  <label class="logo">Loveit</label>
+  <ul>
+    <li><a  routerLink="/catalogue">Home</a></li>
+    <li><a routerLink="/catalogue">favourite</a></li>
+    <li><a routerLink="/catalogue">Catalogue</a></li>
+    <li><a routerLink="/cart">Cart</a></li>
+  </ul>
+</nav>
+
+
+<div class="container">
+<div clas="row">
+<div *ngIf="cart.length > 0; else noProducts">
+  <div class="col">
+  <table class="table">
+  <thead>
+    <tr>
+      <th>Image</th>
+      <th>Name</th>
+      <th>Price</th>
+      <th>Quantity</th>
+      <th>Remove</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of cart">
+      <td><img [src]="'assets/' + item.image" alt="{{ item.name }}" class="cart-item-image"></td>
+      <td>{{ item.name }}</td>
+      <td>{{ item.price }}</td>
+      <td>
+        <button (click)="decreaseQuantity(item)">-</button>
+        {{ item.quantity }}
+        <button (click)="increaseQuantity(item)">+</button>
+      </td>
+      <td><button class="btn btn-danger" (click)="removeFromCart(item)">Remove</button></td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
+<br><br>
+<div class="col">
+<div class="card">
+  <div class="card-header">
+    Price Details
+  </div>
+  <div class="card-body">
+    <p>Total Items: {{ getTotalItems() }}</p>
+    <hr>
+    <p class="font-weight-bold">Total Amount: {{ getTotal() }} </p>
+    <button class="btn btn-primary" (click)="checkout()">Checkout</button>
+
+  </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  <ng-template #noProducts>
+    <p>No product added</p>
+  </ng-template>
